@@ -1,0 +1,192 @@
+*{
+    border: 0;
+    padding: 0;
+}
+.react-logo {
+    width: 9.5em;
+    height: 8.5em;
+}
+.react-logo-small {
+    width: 5.5em;
+    height: 4.5em;
+}
+.head-section{
+    background-color:rgba(255, 251, 240, 1);
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+#text-style{
+    color: rgba(250, 190, 76, 1);
+    font-size: 5em;
+}
+.text-style2{
+    font-size: 4em;
+}
+.react-category, .text-style2{
+    color: rgba(54, 57, 88, 1);
+}
+.text-style3 {
+    color: rgba(54, 57, 88, 1);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.0em;
+}
+.text-style4 {
+    color: rgba(54, 57, 88, 1);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.0em;
+}
+.react-card-img{
+    padding: 5%;
+    background-color: rgba(241, 241, 241, 1);
+    margin: 4% auto; 
+}
+.penguin-info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.react-card-border, .react-card-img{
+    border-radius: 1em;
+}
+.price-text-style{
+    color: rgba(250, 190, 76, 1);
+    font-weight: bold;
+}
+.react-card-footer, .react-card-border{
+    background-color: white;
+    border: 0;
+}
+.react-btn{
+    background-color: rgba(164, 188, 70, 1);
+    color: white;
+}
+.footer-section{
+    background-color:rgba(255, 251, 240, 1);
+    padding: 3% 1% 1% 1%;
+}
+.row-2{
+    justify-content: space-between;
+    margin:3em auto 1em;
+}
+select{
+    border:1px solid #ff523b;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border:1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background: #ff523b;
+    color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    padding:20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media only screen and (max-width:800px){
+    nav ul{
+        position: absolute;
+        top:70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display:block;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width:600px){
+    .row{
+        text-align: center;
+    }
+    .col-2 .col-3 .col-4{
+        flex-basis: 100%;
+    }
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+        padding: 20px 0;
+    }
+    .single-product h1{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .cart-info p{
+        display: none;
+    }
+
+
+}
+
+
