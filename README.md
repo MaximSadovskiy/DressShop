@@ -3,10 +3,14 @@
 
 ## Инструкция по запуску
 
-1) В папке с проектом пишется:
+1) Запустить PostgreSQL скрипт, который создаст локально таблицы и заполнит их:
 ```console
-.\gradlew.bat bootRun
+psql -U postgres -f ./PopulateTables.sql
 ```
-2) Или же просто открыть папку как проект в Intelij Idea и запустить
+
+2) Запустить проект:
+```console
+./gradlew.bat bootRun
+```
 
 ![site](https://github.com/MaximSadovskiy/DressShop/blob/main/sitephoto.png)
