@@ -13,4 +13,6 @@ psql -U postgres -f ./PopulateTables.sql
 ./gradlew.bat bootRun
 ```
 
+3) Открыть в браузере: http://localhost:8080/
+
 ![site](https://github.com/MaximSadovskiy/DressShop/blob/main/sitephoto.png)
